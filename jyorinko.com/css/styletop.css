@@ -1,0 +1,239 @@
+/*トップ全体のはこ*/
+.box-top{
+    width: 100%;
+    height: 50px;
+   /* position: fixed;*/
+}
+.topicon {
+    width: 100%;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    border: 0px;
+}
+
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+
+#header{
+        position:fixed;
+        height: 50px;
+        display:block;
+        width: 100%;
+        background: #333;
+        z-index:9;
+        text-align:center;
+        color: #DBDADA;
+        padding: 20px 0 0 0;
+        font-family: "ＭＳ Ｐゴシック","Bradley Hand";
+    }
+
+    #header{
+        top:0px;
+    }
+/*------------------------------*/
+
+#header li { 
+    margin-top: 0px;
+    float: left;
+    text-align: right;
+    width: 13.3333%;
+    list-style: none;
+    }
+#header a{ text-decoration: none; 
+         color: #fff;
+}
+#header a:hover { color: #8E8C8C; 
+    text-decoration: underline;
+    }
+
+     /*------------プロフィールCSS------------*/
+
+.pbox {
+    width: 200px;
+    height: 250px;
+    text-align: left;
+    padding: 30px;
+    margin-right: 50px;
+    margin-left: 70px;
+    float: left;
+
+}
+h1 {
+    width: 100%;
+    color: #545353;
+    font-family: "ＭＳ Ｐゴシック","Bradley Hand";
+}
+
+.cre {
+color: #545353;
+    font-style: italic;
+}
+.dream {
+     color: #545353;
+    font-style: italic;
+}
+.pro {
+    color: #545353;
+    font-style: italic;
+}
+.like {
+    color: #545353;
+    font-style: italic;
+}
+.mebox img {
+    width: 150px;
+    padding: 30px;
+    margin-left: 70px;
+    margin-right: 50px;
+    float: left;
+}
+/*--------------------わーくす--------------------*/
+
+.work {
+    width: 90%;
+    margin: 0 auto;
+    padding: 0px;
+
+}
+.works {
+    width: 200px;
+    text-align: left;
+    margin: 40px;
+    margin-bottom: 50px;
+    float: left;
+}
+.web {
+    margin-left: 250px;
+}
+.rwi {
+    margin-right: 250px;
+}
+.works p {
+    color: #545353;
+    font-style: italic;
+}
+
+h2 {
+    color: #545353;
+    font-size: 30px;
+    font-family: "ＭＳ Ｐゴシック","Bradley Hand";
+}
+.works img {
+    width: 100%;
+}
+
+/*------------------じゃーにー------------------*/
+.jn-allbox {
+    margin: 0 auto;
+}
+
+.jn-icon {
+    text-align: center;
+    margin:0 auto;
+}
+.jn-icon img {
+    max-width: 150px;
+    margin-top: 0px;
+    margin: 0 auto;
+}
+.jn-icon h3 {
+    text-align: center;
+    font-size: 40px;
+    font-family: "ＭＳ Ｐゴシック","Bradley Hand";
+    margin: 0 auto;
+}
+.world {
+    text-align: center;
+    margin-top: 4%;
+    float: left;
+}
+.world img {
+    max-width: 150px;
+    margin-top: 0px;
+    margin: 0 auto;
+    vertical-align: bottom;
+}
+.malta ,.london, .gc,.hawaii {
+    width: 25%;
+    height: 300px;
+/*    background: red;*/
+/*    display: none;*/
+}
+.malta-text {
+    width: 400px;
+    height: 500px;
+    background: pink;
+    margin :0 auto;
+    display: none;
+}
+.london-text {
+    width: 400px;
+    height: 500px;
+    background: red;
+    margin :0 auto;
+    display: none;
+}
+
+
+/*--------------お問い合わせ--------------*/
+.mail {
+    width: 95%;
+    margin: 0 auto;
+    text-align: center;
+}
+.mail h3 {
+     text-align: center;
+    font-size: 40px;
+    font-family: "ＭＳ Ｐゴシック","Bradley Hand";
+    margin: 0 auto;
+}
+.mail p {
+    font-style: italic;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+/*------------------------------------*\
+    BORDERS
+\*------------------------------------*/
+ 
+/* Create a series of empty pseudo-elements... */
+html:before,html:after,body:before,body:after{
+    content:"";
+    background:#000;
+    position:fixed;
+    display:block;
+    z-index:5;
+}
+ 
+/* ...and position them! */
+html:before{
+    height:10px;
+    left:0;
+    right:0;
+    top:0;
+}
+html:after{
+    width:10px;
+    top:0;
+    right:0;
+    bottom:0;
+}
+body:before{
+    height:10px;
+    right:0;
+    bottom:0;
+    left:0;
+}
+body:after{
+    width:10px;
+    top:0;
+    bottom:0;
+    left:0;
+}
+
+/*-----------------------*/
+

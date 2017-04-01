@@ -1,0 +1,61 @@
+h1 {
+	color: #545353;
+	font-family: "ＭＳ Ｐゴシック","Bradley Hand";
+}
+.box {
+	color: #545353;
+	font-style: italic;
+}
+
+.create {
+	width: 200px;
+	height: 250px;
+	text-align: left;
+	padding: 30px;
+	margin-right: 50px;
+	margin-left: 70px;
+	display: none;
+	float: left;
+}
+
+.dream {
+	width: 200px;
+	height: 250px;
+	text-align: left;
+	padding: 30px;
+	margin-right: 50px;
+	margin-left: 70px;
+	display: none;
+	float: left;
+
+}
+.like {
+	width: 200px;
+	height: 250px;
+	text-align: left;
+	padding: 30px;
+	margin-right: 50px;
+	margin-left: 70px;
+	display: none;
+	float: left;
+
+}
+.profile-box img {
+	width: 250px;
+	padding-right:50px;
+    margin: 30px;
+    margin-left: 70px;
+    display: inline-block;
+    display: none;
+    clear: both;
+}
+.mozi {
+	width: 200px;
+	height: 250px;
+	text-align: left;
+	padding: 30px;
+	margin-right: 50px;
+	margin-left: 70px;
+	display: none;
+	float: left;
+}
